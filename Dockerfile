@@ -5,4 +5,4 @@ COPY . .
 
 RUN make build
 
-CMD ["/app/harness/bin/app", "-path", "/app/bin/"]
+CMD ["/app/harness/bin/app"]
