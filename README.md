@@ -11,7 +11,8 @@ This repository provides starter files to help you run your code against the Bui
 ## Getting Started
 
 1. Replace the `FROM` directive in the Dockerfile with the base test harness image provided by the tutorial author.
-2. In the `Dockerfile`, update the image name to your desired image name
-3. Update the `docker-compose.yml` to use you locally built image
+2. In the `Dockerfile`, update the image name to your desired image name.
+3. Update the `docker-compose.yml` to use your locally built image.
 4. Create a `.env` file with your credentials (see `.env.example` for an example).
 5. Update `meta.json` with your project ID from the Buildium website. When you're ready, set the `stage` value to the stage you want to test against.
+6. Remove the current Git remote and add a new remote pointing to your desired GitHub repository.
