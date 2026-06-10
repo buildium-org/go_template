@@ -1,5 +1,4 @@
 {
     "stage": 0,
-    "entrypoint": "app",
-    "projectId": "<YOUR_PROJECT_ID>"
+    "entrypoint": "app"
 }
